@@ -21,6 +21,7 @@ address{
 
 a:hover{
 	cursor: pointer;
+	text-decoration: none;
 }
 @media (max-width: 768px) and (min-width: 400px)
 {
@@ -38,4 +39,8 @@ a:hover{
 		width: 100%;
 		margin-top: 10px;
 	}
+}
+
+.facebook-logo:hover{
+	background: url(../assets/img/if_1_Media_social_website_facebook_2657542 - Copia.png);
 }
