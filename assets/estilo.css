@@ -20,6 +20,8 @@ footer div{
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover{
 	background-color:  #36454f;
 }
-@media(min-width: 906px){
-	
+@media(min-width: 768px) and (max-width: 906px){
+	#login.form-control{
+		width: 50%;
+	}
 }
