@@ -1,0 +1,13 @@
+footer{
+	background-color: #36454f;
+	color:#FFFFFF;
+	margin-top: 45px;
+	padding: 20px 0px;
+}
+footer address{
+	margin: 0 0 0;
+	text-align: center;
+}
+footer div{
+	text-align: center;
+}
