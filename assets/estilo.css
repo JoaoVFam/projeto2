@@ -12,16 +12,16 @@ footer div{
 	text-align: center;
 }
 .dropdown-menu{
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
 }
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover{
 	background-color:  #36454f;
 }
 @media(min-width: 768px) and (max-width: 906px){
 	#login.form-control{
-		width: 50%;
+		width: 236px;
 	}
 }
