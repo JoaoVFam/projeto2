@@ -5,13 +5,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="../assets/estilo.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css-contato/estilo.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/Bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/estilo-localizacao.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/estilo-footer.css">
-		<!-- Favicon -->
 		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
-		<script src="../assets/jquery.js"></script>
+		<script src="../assets/css-contato/jquery.js"></script>
 		<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
