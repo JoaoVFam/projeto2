@@ -36,7 +36,7 @@
 		    				<li class="dropdown">
 		    					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span><span class="caret"></span></a>
 		    					<ul class="dropdown-menu">
-		    						<div>
+		    						<div class="container">
 			    						<form>
 			    							<div class="form-group">
 			    								<label for="login">Login:</label>
