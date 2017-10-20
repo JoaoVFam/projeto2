@@ -3,7 +3,6 @@
 	<head>
 		<title>JF Alarmes</title>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="../assets/estilo.css">
@@ -12,10 +11,12 @@
 		<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/estilo-footer.css">
 		<!-- Favicon -->
 		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
+		<script src="../assets/jquery.js"></script>
+		<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-inverse estilo-navbar" style="background-color: #36454f">
+			<nav class="navbar navbar-inverse" style="background-color: #36454f">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -36,17 +37,19 @@
 		    				<li class="dropdown">
 		    					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span><span class="caret"></span></a>
 		    					<ul class="dropdown-menu">
-		    						<form>
-		    							<div class="form-group">
-		    								<label for="login">Login:</label>
-		    								<input class="form-control" id="login" type="text" placeholder="Usuário">
-		    							</div>
-		    							<div class="form-group">
-		    								<label for="login">Senha:</label>
-		    								<input class="form-control" id="login" type="text" placeholder="Sua senha">
-		    							</div>
-		    						</form>
-		    						<button class="btn btn-default" type="submit">Entrar</button>
+		    						<div>
+			    						<form>
+			    							<div class="form-group">
+			    								<label for="login">Login:</label>
+			    								<input class="form-control" id="login" type="text" placeholder="Usuário">
+			    							</div>
+			    							<div class="form-group">
+			    								<label for="login">Senha:</label>
+			    								<input class="form-control" id="login" type="text" placeholder="Sua senha">
+			    							</div>
+			    						</form>
+			    						<button class="btn btn-default" type="submit">Entrar</button>
+			    					</div>	
 		    					</ul>
 		    				</li>
 		    			</ul>
