@@ -10,16 +10,16 @@ footer {
 	width: 50%;
 	vertical-align: top;
 } 
-address{
+.footer-endereco address{
 	margin: 0px;
 }
 .img-redes{
 	display: inline-block;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-left: -8px;
 }
 
-a:hover{
+.img-redes a:hover{
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -40,7 +40,6 @@ a:hover{
 		margin-top: 10px;
 	}
 }
-
 .facebook-logo:hover{
-	background: url(../assets/img/if_1_Media_social_website_facebook_2657542 - Copia.png);
+	background-color:#FFF;
 }

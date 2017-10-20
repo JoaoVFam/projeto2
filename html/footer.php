@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8"/>
-	<!--compatibilidade para IE-->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!--;;-->
-	<title>Footer</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/Bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/estilo-footer.css">
-	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
-	<!-- nao sei se funciona -->
-
-</head>
-
-<body>
 	<footer>
 		<address class="footer-endereco">
 			<strong> JF ALARMES </strong> <br>

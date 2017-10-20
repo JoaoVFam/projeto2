@@ -1,13 +1,10 @@
-body{
-	background-color: #f2f2f2;
-}
 .endereco{
 
 	font-family: sans-serif,serif;
 	font-size: 20px;
 	margin-top: 5px;
 }
-h1{
+.localizacao-titulo h1{
 	letter-spacing: -1px;
 	margin-top: 0;
 	padding:20px 0px;
@@ -21,7 +18,7 @@ h1{
 		font-size: 16px;
 		letter-spacing: -1px;
 	}
-	h1{
+	#localizacao-titulo-h1{
 		font-size: 36px;
 	}
 }
@@ -36,13 +33,6 @@ h1{
 		width: 100%;
 		padding-bottom: 42%;
 	}
-}
-header{
-	background-color: #CCC;
-	padding-top:20px;
-	padding-bottom: 20px;
-	margin:20px 0px;
-	width: 100%
 }
 .imagem{
 	background-color: #00FF00;
