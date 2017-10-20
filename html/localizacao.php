@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8"/>
-	<!--compatibilidade para IE-->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!--;;-->
-	<title>Localização</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/Bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/estilo-localizacao.css">
-	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
-
-</head>
-
+<?php include("navbar.php")?>
 <body>
 	<div class="container">
 		<h1>Localização</h1>
