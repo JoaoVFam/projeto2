@@ -1,7 +1,7 @@
 <?php include("navbar.php")?>
 <body>
 	<div class="container">
-		<h1>Localização</h1>
+		<h1 id="localizacao-titulo">Localização</h1>
 		<div class="row">
 			<div class="col-md-6">
 				<div class="jumbotron">

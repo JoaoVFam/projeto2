@@ -10,7 +10,7 @@ footer {
 	width: 50%;
 	vertical-align: top;
 } 
-address{
+.footer-endereco address{
 	margin: 0px;
 }
 .img-redes{
@@ -19,7 +19,7 @@ address{
 	margin-left: -8px;
 }
 
-a:hover{
+.img-redes a:hover{
 	cursor: pointer;
 	text-decoration: none;
 }

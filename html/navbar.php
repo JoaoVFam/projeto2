@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="../assets/estilo.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/Bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/estilo-localizacao.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css-localizacao/estilo-footer.css">
 		<!-- Favicon -->
 		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
 	</head>
