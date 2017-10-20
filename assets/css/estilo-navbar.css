@@ -1,16 +1,3 @@
-footer{
-	background-color: #36454f;
-	color:#FFFFFF;
-	margin-top: 45px;
-	padding: 20px 0px;
-}
-footer address{
-	margin: 0 0 0;
-	text-align: center;
-}
-footer div{
-	text-align: center;
-}
 .dropdown-menu{
 	padding-top: 15px;
 	padding-right: 15px;
@@ -20,7 +7,7 @@ footer div{
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover{
 	background-color:  #36454f;
 }
-@media(min-width: 768px) and (max-width: 906px){
+@media(min-width: 891px) and (max-width: 906px){
 	#login.form-control{
 		width: 236px;
 	}
