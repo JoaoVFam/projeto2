@@ -1,4 +1,4 @@
-<?php include("navbar.php")?>
+<?php include("header.php")?>
 <body>
 	<div class="container">
 		<h1 id="localizacao-titulo">Localização</h1>
