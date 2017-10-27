@@ -8,7 +8,7 @@
 
 <body>
 
-	<?php include("header.php");?>
+	<?php include'header.php';?>
 
 	
 	<div class="container" >
@@ -129,7 +129,7 @@
 		</div>
 	</div>
 
-	<?php include("footer.php")?>
+	<?php include("footer.php");?>
  
 	<script src="../assets/js/jquery.js"></script>
 	<script src="../assets/js/bootstrap.min.js"></script>
