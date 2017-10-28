@@ -1,4 +1,4 @@
-		<section>	
+		<section id="quemsomos">	
 			<div class="container">
 				<h2 id="titulo"> Quem somos?</h2>
 				<img id="foto-fachada" class="img-responsive" src="../assets/img/fachada.jpg" alt="Foto da fachada das instalações da empresa">
@@ -18,5 +18,3 @@
 	   	</section>
 	   	<script src="../assets/js/jquery.js"></script>
 		<script src="../assets/js/bootstrap.min.js"></script>
-	</body>
-</html>
