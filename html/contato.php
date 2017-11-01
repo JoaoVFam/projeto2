@@ -20,6 +20,3 @@
 			</form>
 			<button class="btn btn-default" type="submit">Enviar</button>
 		</section>
-		<script src="../assets/js/jquery.js"></script>
-		<script src="../assets/js/bootstrap.min.js"></script>
-	</body>

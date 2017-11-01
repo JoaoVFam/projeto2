@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/estilo-header.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/estilo-home.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/estilo-localizacao.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/estilo-footer.css">
+		<title>JF Alarmes</title>
+		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
+	</head>
+	<body>
 		<header>
 			<nav class="navbar navbar-inverse" style="background-color: #36454f">
 				<div class="container-fluid">
@@ -12,7 +27,7 @@
 					</div>
 					<div class="collapse navbar-collapse" id="navbar">
 						<ul class="nav navbar-nav">
-							<li><a href="#">Home</a></li>
+							<li><a href="#home">Home</a></li>
 							<li><a href="#quemsomos">Quem somos</a></li>
 							<li><a href="#">Produtos</a></li>
 							<li><a href="#contato">Contato</a></li>
