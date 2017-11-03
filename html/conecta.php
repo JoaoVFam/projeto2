@@ -1,2 +1,2 @@
 <?php 
-$conexao = mysqli_connect('localhost', 'root','','JFalarmes');
+$conexao = mysqli_connect('localhost', 'root','aph2403a','JFalarmes');
