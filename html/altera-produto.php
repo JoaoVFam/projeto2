@@ -1,4 +1,4 @@
-	<?php include("../header.php");?>
+	<?php include("header.php");?>
 	<?php include("conecta.php");?>
 	<?php include("banco-produto.php");?>
 

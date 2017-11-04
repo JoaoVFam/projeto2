@@ -1,4 +1,4 @@
-<?php include("../header.php");
+<?php include("header.php");
 include("conecta.php");
 include("banco-categoria.php");
 $categorias = listaCategorias($conexao);

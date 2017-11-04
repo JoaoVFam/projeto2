@@ -1,4 +1,4 @@
-<?php include("../header.php");
+<?php include("header.php");
 include("banco-produto.php");
 include("conecta.php");?>
 <div class="container">
