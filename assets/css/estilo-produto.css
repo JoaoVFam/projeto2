@@ -1,0 +1,98 @@
+table.tabela-lado
+{
+	display: inline;
+	position: relative;
+}
+.estilo-body
+{
+	display: inline-block;
+}
+.espaco
+{
+   padding: 7px 10px;
+} 
+
+a.cor:link, a.cor:visited
+{
+	color:#FF2809;
+    text-decoration: none ;
+}
+a.cor:hover
+{
+	text-decoration: none;
+}
+a.cor:active
+{
+	color: #F90900;
+    text-decoration: none ;
+}
+.cor
+{
+	color: #F90900;
+}
+.fonte
+{
+	font-size: 18px;
+}
+.row2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.row3
+{
+	display: inline-block;
+	position: relative;
+	padding-left: 30px;
+	background: #000;
+    width: 100%;
+}
+.row4
+{
+	display: inline-block;
+	position: relative;
+	padding-left: 30px;
+}
+.espaco-topo
+{
+	padding-top: 5px;
+}
+.form-busca
+{
+   display: inline-block;
+}
+.altura
+{
+	height: 100%;
+	margin-bottom: 15px;
+}
+.altura-fix
+{
+	height: 460px;
+
+}
+.imagem
+{
+	height: 180px !important;
+}
+.botao
+{
+	bottom: 0px;
+    position: absolute;
+    margin-bottom: 10px;
+}
+.cor-alarme
+{
+	background: #000;
+	width: 100%;
+}
+.cor-letra
+{
+    color: #F7E41E;
+}
+.altura-ultimo
+{
+	height: 230px !important;
+}
