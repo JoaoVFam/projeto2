@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-		<title>JF Alarmes - Contato</title>
-		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
-	</head>
-	<body>
-		<section class="container">
+		<section id="contato" class="container">
 			<h2>Contato</h2>
 			<p>Entre em contato conosco.</p>
 			<form>
@@ -31,5 +20,3 @@
 			</form>
 			<button class="btn btn-default" type="submit">Enviar</button>
 		</section>
-	</body>
-</html>
