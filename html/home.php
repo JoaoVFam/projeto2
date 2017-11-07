@@ -1,4 +1,4 @@
-		<section id="home">	
+		<section id="home">
 			<div>
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">

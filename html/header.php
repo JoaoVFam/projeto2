@@ -12,7 +12,7 @@
 		<title>JF Alarmes</title>
 		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
 	</head>
-	<body style="padding-top: 70px">
+	<body style="padding-top: 50px">
 		<header>
 			<nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #36454f">
 				<div class="container-fluid">
