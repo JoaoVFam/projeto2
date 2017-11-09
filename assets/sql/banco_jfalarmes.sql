@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 06-Nov-2017 às 20:44
+-- Generation Time: 09-Nov-2017 às 10:20
 -- Versão do servidor: 5.7.20-log
 -- PHP Version: 5.6.31
 
@@ -75,9 +75,7 @@ INSERT INTO `produtos` (`id`, `nome`, `preco`, `categoria_id`, `nome_imagem`) VA
 (43, 'Alarme residencial', '123.00', 12, 'alarme01.jpg'),
 (45, 'Alarme com controle remoto', '123.00', 12, 'alarme03.jpg'),
 (46, 'Sensor de movimento', '123.00', 15, 'sensor01.jpg'),
-(47, 'Sensor de movimento residencial', '123.00', 15, 'sensor02.png'),
-(49, 'Cerca Elétrica', '123.00', 14, 'cercaEletrica.jpg'),
-(53, 'Portão de aço', '123.00', 16, 'portaodeaço.jpg');
+(47, 'Sensor de movimento residencial', '123.00', 15, 'sensor02.png');
 
 -- --------------------------------------------------------
 
@@ -87,9 +85,18 @@ INSERT INTO `produtos` (`id`, `nome`, `preco`, `categoria_id`, `nome_imagem`) VA
 
 DROP TABLE IF EXISTS `usuarios`;
 CREATE TABLE IF NOT EXISTS `usuarios` (
-  `e-mail` varchar(100) DEFAULT NULL,
-  `senha` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(100) DEFAULT NULL,
+  `senha` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+--
+-- Extraindo dados da tabela `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `email`, `senha`) VALUES
+(4, 'rezende.gabriel@engenharia.ufjf.br', 'a23d45g');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

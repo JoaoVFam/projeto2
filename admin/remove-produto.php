@@ -1,9 +1,7 @@
-<?php include("header.php");?>
-<?php include("conecta.php");?>
-<?php include("banco-produto.php");?>
-<?php
-$id = $_GET['id'];
+<?php include("header.php");
+include("conecta.php");
+include("banco-produto.php");
+$id = $_POST['id'];
 removeProduto($conexao, $id);
 header("Location: produto-lista.php?removido=true");
 die();
-?>

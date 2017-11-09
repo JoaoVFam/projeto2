@@ -5,4 +5,3 @@ $id = $_POST['id'];
 removeUsuario($conexao, $id);
 header("Location: usuario-lista.php?removido=true");
 die();
-?>
