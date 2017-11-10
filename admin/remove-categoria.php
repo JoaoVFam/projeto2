@@ -1,6 +1,7 @@
-<?php
-$id = $_GET['id'];
-removeProduto($conexao, $id);
+<?php include("header.php");
+include("conecta.php");
+include("banco-categoria.php");
+$id = $_POST['id'];
+removeCategoria($conexao, $id);
 header("Location: categoria-lista.php?removido=true");
 die();
-?>

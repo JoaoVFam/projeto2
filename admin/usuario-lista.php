@@ -3,7 +3,7 @@ include("conecta.php");
 include("banco-usuario.php");
 if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
 	<div class="alert alert-success" role="alert">
-		<p>Usuário removido com sucesso</p>
+		<p>Usuário removido com sucesso!</p>
 	</div>
 <?php }?>
 <div class="panel panel-default">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 09-Nov-2017 às 10:20
+-- Generation Time: 10-Nov-2017 às 21:20
 -- Versão do servidor: 5.7.20-log
 -- PHP Version: 5.6.31
 
@@ -40,10 +40,7 @@ CREATE TABLE IF NOT EXISTS `categorias` (
 
 INSERT INTO `categorias` (`id`, `nome`) VALUES
 (14, 'Cercas'),
-(13, 'Câmeras'),
-(12, 'Alarmes'),
-(15, 'Controle de acesso'),
-(16, 'Portões e cancelas');
+(13, 'Câmeras');
 
 -- --------------------------------------------------------
 
@@ -74,8 +71,7 @@ INSERT INTO `produtos` (`id`, `nome`, `preco`, `categoria_id`, `nome_imagem`) VA
 (54, 'Portão de correr', '123.00', 16, 'portaodecorrer.jpg'),
 (43, 'Alarme residencial', '123.00', 12, 'alarme01.jpg'),
 (45, 'Alarme com controle remoto', '123.00', 12, 'alarme03.jpg'),
-(46, 'Sensor de movimento', '123.00', 15, 'sensor01.jpg'),
-(47, 'Sensor de movimento residencial', '123.00', 15, 'sensor02.png');
+(46, 'Sensor de movimento', '123.00', 15, 'sensor01.jpg');
 
 -- --------------------------------------------------------
 
