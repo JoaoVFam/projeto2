@@ -12,9 +12,9 @@
 		<title>JF Alarmes</title>
 		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
 	</head>
-	<body>
+	<body style="padding-top: 50px">
 		<header>
-			<nav class="navbar navbar-inverse" style="background-color: #36454f">
+			<nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #36454f">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -26,7 +26,7 @@
 						<a class="navbar-brand" href="#">JF Alarmes</a>
 					</div>
 					<div class="collapse navbar-collapse" id="navbar">
-						<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav links-nav">
 							<li><a href="#home">Home</a></li>
 							<li><a href="#quemsomos">Quem somos</a></li>
 							<li><a href="#">Produtos</a></li>

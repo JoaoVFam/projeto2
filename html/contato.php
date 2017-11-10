@@ -1,4 +1,4 @@
-		<section id="contato" class="container">
+		<section id="contato" class="container" style="padding: 50px">
 			<h2>Contato</h2>
 			<p>Entre em contato conosco.</p>
 			<form>
