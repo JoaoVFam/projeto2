@@ -26,7 +26,7 @@
 						<a class="navbar-brand" href="#">JF Alarmes</a>
 					</div>
 					<div class="collapse navbar-collapse" id="navbar">
-						<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav links-nav">
 							<li><a href="#home">Home</a></li>
 							<li><a href="#quemsomos">Quem somos</a></li>
 							<li><a href="#">Produtos</a></li>
