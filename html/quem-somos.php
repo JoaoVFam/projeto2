@@ -1,4 +1,4 @@
-		<section id="quemsomos" style="padding: 50px">	
+		<section id="quemsomos" style="padding-top: 50px">	
 			<div class="container">
 				<h2 id="titulo"> Quem somos?</h2>
 				<img id="foto-fachada" class="img-responsive" src="../assets/img/fachada.jpg" alt="Foto da fachada das instalações da empresa">

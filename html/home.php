@@ -8,22 +8,22 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="../assets/img/slide1.jpg" alt="slide1" style="width:100%" style="height: 75%" />
-							<div class="carousel-caption">
+							<img src="../assets/img/slide11.jpg" alt="slide1" style="width:100%" class="img-slide" />
+							<div class="carousel-caption img-slide">
 								<h4>Alarmes residenciais e comerciais</h4>
 								<p>Nossos sistemas de alarmes permitem que seu patrimônio fique protegido no momento de ociosidade do imóvel.</p>
 							</div>
 							</div>
 						    <div class="item">
-						        <img src="../assets/img/slide2.jpg" alt="slide2" style="width:100%" style="height: 75%"  />
-							    <div class="carousel-caption">
+						        <img src="../assets/img/slide21.jpg" alt="slide2" style="width:100%" class="img-slide"/>
+							    <div class="carousel-caption img-slide">
 							        <h4>Automação de Portões</h4>
 							        <p>A JF Alarmes também presta serviços de Automação de Portões que proporcionam conforto para a família.</p>
 							    </div>
 						    </div>
 							<div class="item">
-							    <img src="../assets/img/slide3.jpg" alt="slide3" style="width:100%" style="height: 75%"/>
-								<div class="carousel-caption">
+							    <img src="../assets/img/slide31.jpg" alt="slide3" style="width:100%" class="img-slide"/>
+								<div class="carousel-caption img-slide">
 									<h4>Cerca Elétrica</h4>
 									<p>Inibe a ação de invasores através de descarga elétrica.</p>
 								</div>

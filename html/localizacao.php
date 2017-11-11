@@ -1,4 +1,4 @@
-		<section id="localização" style="padding: 50px">
+		<section id="localização" style="padding-top: 50px">
 			<div class="container">
 				<h1>Localização</h1>
 				<div class="row">
