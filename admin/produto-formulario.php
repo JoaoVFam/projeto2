@@ -3,7 +3,7 @@ include("conecta.php");
 include("banco-categoria.php");
 $categorias = listaCategorias($conexao);?>
 <h1>Formulário de Produto</h1>
-<form action="adiciona-produto.php" method="post">
+<form action="adiciona-produto.php" method="post" enctype="multipart/form-data">
 	<table class="table">
 		<tr>
 			<td>Nome</td>
@@ -16,6 +16,12 @@ $categorias = listaCategorias($conexao);?>
 		<tr>
 			<td>Descrição</td>
 			<td><textarea name="descricao" class="form-control"></textarea></td>
+		</tr>
+		<tr>
+			<td>Selecione uma Imagem</td>
+			<td>
+				<input type="file" name="foto" class="form-control">
+			</td>
 		</tr>
 		<tr>
 			<td>Categoria</td>

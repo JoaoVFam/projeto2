@@ -5,8 +5,9 @@ include("banco-produto.php");
 $id = $_GET["id"];
 $produto = buscaProduto($conexao, $id);
 $categorias = listaCategorias($conexao);?>
+
 <h1>Alterar Produto</h1>
-<form action="altera-produto.php" method="post">
+<form action="altera-produto.php" method="post" enctype="multipart/form-data">
 	<input type="hidden" name="id" value="<?=$produto['id']?>">
 	<table class="table">
 		<tr>
@@ -20,6 +21,12 @@ $categorias = listaCategorias($conexao);?>
 		<tr>
 			<td>Descrição</td>
 			<td><textarea name="descricao" class="form-control"><?=$produto['descricao']?></textarea></td>
+		</tr>
+		<tr>
+			<td>Selecione uma Imagem</td>
+			<td>
+				<input type="file" name="foto" class="form-control" src="anexo/<?=$produto['nomefoto']?>">
+			</td>
 		</tr>
 		<tr>
 			<td>Categoria</td>

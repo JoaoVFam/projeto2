@@ -22,6 +22,7 @@ if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
 						<button class="btn btn-danger">Remover</button>
 					</form>
 				</td>
+				<td><a class="btn btn-info" href="produto-detalhes.php?id=<?=$produto['id']?>">Informações</a></td>
 			</tr>
 		<?php }?>
 	</table>
