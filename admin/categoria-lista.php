@@ -5,7 +5,7 @@ if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
  	<div class="alert alert-success" role="alert">
 		<p>Categoria removida com sucesso!</p>
 	</div>
- <?php }?>
+<?php }?>
 <div class="panel panel-default">
  	<div class="panel-heading"><h4>Lista de Categorias</h4></div>
 	<table class="table table-striped table-bordered">

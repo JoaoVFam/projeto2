@@ -1,6 +1,6 @@
 <?php include("header.php");
 include("conecta.php");?>
-<h1>Formulário de usuários</h1>
+<h1>Formulário de Usuário</h1>
 <form action="adiciona-usuario.php" method="post">
 	<table class="table">
 		<tr>

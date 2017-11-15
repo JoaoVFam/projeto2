@@ -21,6 +21,8 @@ function buscaCategoria($conexao, $id) {
 	return mysqli_fetch_assoc($resultado);
 }
 function removeCategoria($conexao, $id) {
+	$query = "update produtos set categoria_id = NULL where categoria_id = {$id}";
+	mysqli_query($conexao, $query);
 	$query = "delete from categorias where id = {$id}";
 	return mysqli_query($conexao, $query);
 }

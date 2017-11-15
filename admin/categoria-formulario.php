@@ -1,6 +1,6 @@
 <?php include("header.php");
 include("conecta.php");?>
-<h1>Formulário de categorias</h1>
+<h1>Formulário de Categoria</h1>
 <form action="adiciona-categoria.php" method="post">
 	<table class="table">
 		<tr>

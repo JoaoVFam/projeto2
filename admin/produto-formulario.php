@@ -7,21 +7,15 @@ $categorias = listaCategorias($conexao);?>
 	<table class="table">
 		<tr>
 			<td>Nome</td>
-			<td> <input class="form-control" type="text" name="nome"></td>
+			<td><input class="form-control" type="text" name="nome"></td>
 		</tr>
 		<tr>
 			<td>Preço</td>
-			<td> <input class="form-control" type="text" name="preco"></td>
+			<td><input class="form-control" type="text" name="preco"></td>
 		</tr>
 		<tr>
 			<td>Descrição</td>
 			<td><textarea name="descricao" class="form-control"></textarea></td>
-		</tr>
-		<tr>
-			<td>Selecione uma Imagem</td>
-			<td>
-				<input type="file" name="foto" class="form-control">
-			</td>
 		</tr>
 		<tr>
 			<td>Categoria</td>
@@ -34,6 +28,10 @@ $categorias = listaCategorias($conexao);?>
 					<?php endforeach?>
 				</select>
 			</td>
+		</tr>
+		<tr>
+			<td>Imagem</td>
+			<td><input type="file" name="foto" class="form-control"></td>
 		</tr>
 		<tr>
 			<td><button type="submit" class="btn btn-primary">Cadastrar</button></td>
