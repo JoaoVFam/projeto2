@@ -1,9 +1,22 @@
 html>body>div.jumbotron{
     margin-top: 30px;
  }
- @media (max-width: 425px){
- 		.img-slide{
- 			width: 200%;
- 		}
- 	}
- }
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+}
+.invisible {
+  visibility: hidden;
+}
+ @media (max-width: 768px){
+	 .slide-cel{
+	 	display: inline; 
+	 }
+}
+@media (min-width: 768px){
+	.slide-cel{
+		display: none;
+	}
+}
