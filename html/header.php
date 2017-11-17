@@ -49,12 +49,12 @@
 		    					</ul>
 		    				</li>
 		    			</ul>
-			    		<form class="navbar-form navbar-right">
+			    		<form name="searchform" method="post" action="produto.php" class="navbar-form navbar-right">
 							<div class="form-group">
 								<div class="input-group">
 									<input type="text" class="form-control" placeholder="Pesquisa">
 									<span class="input-group-btn">
-										<button type="button" class="btn btn-default" aria-label="Left Align">
+										<button type="submit" class="btn btn-default" aria-label="Left Align">
 									 		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 										</button>
 									</span>
