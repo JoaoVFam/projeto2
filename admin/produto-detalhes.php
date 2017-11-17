@@ -4,13 +4,13 @@ include("banco-produto.php");
 $id = $_POST['id'];
 $produto = buscaProduto($conexao, $id);
 if($produto['categoria_id']!=NULL) {
-	$categoria = buscaCategoriaProduto($conexao, $produto['categoria_id']);
+	$categoria = retornaCategoria($conexao, $produto['categoria_id']);
 }?>
 <div class="panel panel-default">
  	<div class="panel-heading"><h4>Informações do Produto</h4></div>
 	<table class="table">
 		<tr>
-			<td><img src="anexo/<?=$produto['nome_imagem']?>" class="img-thumbnail"></td>
+			<td><img src="anexo/<?=$produto['imagem_produto']?>" class="img-thumbnail"></td>
 			<td>Descrição: <?=$produto['descricao']?> </td>
 		</tr>
 		<tr>
@@ -27,3 +27,4 @@ if($produto['categoria_id']!=NULL) {
 	</table>
 </div>
 <?php include("footer.php");?>
+

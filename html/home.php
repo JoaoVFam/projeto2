@@ -78,6 +78,22 @@
 				  		</a>
 				</div>
 			</div>
+			<!-- Inicio código do slide dos 3 novos produtos, ainda não está funcional -->
+			<?php 
+				include("../admin/conecta.php"); 
+				include("../admin/banco-produto.php");
+			    $produtos = listaProdutos($conexao);
+			    $numeroDeProdutos = 0;
+			    $contador =0;
+				foreach ($produtos as $produto) :		
+					 $numeroDeProdutos = $numeroDeProdutos+1; 
+		  		endforeach;
+		  		foreach ($produtos as $produto) :		
+					 if($contador==$numeroDeProdutos-1 || $contador==$numeroDeProdutos-2 || $contador==$numeroDeProdutos-3){
+					 	$contador = $contador+1;
+					 }
+		  		endforeach; ?>
+		  <!-- Final código do slide dos 3 novos produtos -->
 			<div class="jumbotron"> <!-- class útil para abrigar conteúdo chave como slogans e frases de efeito-->
 				<div class="container">
 					<h2>Faça um orçamento conosco!</h2>
@@ -86,3 +102,6 @@
 				</div>
 			</div>
 		</section>
+
+
+
