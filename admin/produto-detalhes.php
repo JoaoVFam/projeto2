@@ -10,7 +10,7 @@ if($produto['categoria_id']!=NULL) {
  	<div class="panel-heading"><h4>Informações do Produto</h4></div>
 	<table class="table">
 		<tr>
-			<td><img src="anexo/<?=$produto['imagem_produto']?>" class="img-thumbnail"></td>
+			<td><img src="anexo/<?=$produto['nome_imagem']?>" class="img-thumbnail"></td>
 			<td>Descrição: <?=$produto['descricao']?> </td>
 		</tr>
 		<tr>

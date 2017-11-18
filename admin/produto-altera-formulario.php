@@ -37,7 +37,7 @@ $categorias = listaCategorias($conexao);?>
 		</tr>
 		<tr>
 			<td>Imagem</td>
-			<td><input type="file" name="foto" class="form-control" src="anexo/<?=$produto['imagem_produto']?>"></td>
+			<td><input type="file" name="foto" class="form-control" src="anexo/<?=$produto['nome_imagem']?>"></td>
 		</tr>
 		<tr>
 			<td><button type="submit" class="btn btn-primary">Alterar</button></td>

@@ -7,8 +7,8 @@ function listaProdutos($conexao) {
 	}
 	return $produtos;
 }
-function insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, $imagem_produto) {
-	$query = "insert into produtos (nome, preco, descricao, categoria_id, imagem_produto) values ('{$nome}', {$preco}, '{$descricao}', {$categoria_id}, '{$imagem_produto}')";
+function insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, $nome_imagem) {
+	$query = "insert into produtos (nome, preco, descricao, categoria_id, nome_imagem) values ('{$nome}', {$preco}, '{$descricao}', {$categoria_id}, '{$nome_imagem}')";
 	return mysqli_query($conexao, $query);
 }
 function alteraProduto($conexao, $id, $nome, $preco, $descricao, $categoria_id) {
@@ -24,8 +24,8 @@ function removeProduto($conexao, $id) {
 	$query = "delete from produtos where id = {$id}";
 	return mysqli_query($conexao, $query);
 }
-function alteraProdutoFoto($conexao, $id, $nome, $preco, $descricao, $categoria_id, $imagem_produto) {
-	$query = "update produtos set nome = '{$nome}', preco = {$preco}, descricao = '{$descricao}', categoria_id = {$categoria_id}, imagem_produto = '{$imagem_produto}' where id = {$id}";
+function alteraProdutoFoto($conexao, $id, $nome, $preco, $descricao, $categoria_id, $nome_imagem) {
+	$query = "update produtos set nome = '{$nome}', preco = {$preco}, descricao = '{$descricao}', categoria_id = {$categoria_id}, nome_imagem = '{$nome_imagem}' where id = {$id}";
 	return mysqli_query($conexao, $query);
 }
 function retornaCategoria($conexao, $categoria_id) {
