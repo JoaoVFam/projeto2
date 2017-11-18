@@ -78,22 +78,6 @@
 				  		</a>
 				</div>
 			</div>
-			<!-- Inicio código do slide dos 3 novos produtos, ainda não está funcional -->
-			<?php 
-				include("../admin/conecta.php"); 
-				include("../admin/banco-produto.php");
-			    $produtos = listaProdutos($conexao);
-			    $numeroDeProdutos = 0;
-			    $contador =0;
-				foreach ($produtos as $produto) :		
-					 $numeroDeProdutos = $numeroDeProdutos+1; 
-		  		endforeach;
-		  		foreach ($produtos as $produto) :		
-					 if($contador==$numeroDeProdutos-1 || $contador==$numeroDeProdutos-2 || $contador==$numeroDeProdutos-3){
-					 	$contador = $contador+1;
-					 }
-		  		endforeach; ?>
-		  <!-- Final código do slide dos 3 novos produtos -->
 			<div class="jumbotron"> <!-- class útil para abrigar conteúdo chave como slogans e frases de efeito-->
 				<div class="container">
 					<h2>Faça um orçamento conosco!</h2>
@@ -102,6 +86,35 @@
 				</div>
 			</div>
 		</section>
-
-
-
+			<!-- Inicio código do slide dos 3 novos produtos, ainda não está funcional -->
+			<div class="container" >
+				<h2>Novos produtos</h2>
+					<div class="row">
+			<?php 
+				include("../admin/conecta.php"); 
+				include("../admin/banco-produto.php");
+			    $produtos = listaProdutos($conexao);
+			    $numeroDeProdutos = 0;
+			    $contador = 0;
+				foreach ($produtos as $produto) :		
+					 $numeroDeProdutos = $numeroDeProdutos+1; 
+		  		endforeach;
+		  		foreach ($produtos as $produto) :		
+					 if($contador==$numeroDeProdutos-1 || $contador==$numeroDeProdutos-2 || $contador==$numeroDeProdutos-3 || $contador==$numeroDeProdutos-4){ ?>
+						<div class="col-sm-6 col-md-4 col-lg-3">
+							<div class="thumbnail">
+								<img src="../admin/anexo/<?=$produto['nome_imagem']?>" class="img-thumbnail" alt="imagem_produto">
+								<div class="caption">
+									<h3><?=$produto['nome']?></h3>
+									<p><?=substr($produto['descricao'], 0, 40)?></p>
+									<p>Categoria: <?=$produto['categoria_nome']?></p>
+									<h4>Preço: R$ <?=$produto['preco']?> </h4>
+								</div>
+							</div>
+						</div> <?php
+					 }
+					 $contador = $contador+1; 
+		  		endforeach; ?>
+			</div>
+		</div>
+		  <!-- Final código do slide dos 3 novos produtos -->
