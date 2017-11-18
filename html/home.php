@@ -86,7 +86,7 @@
 				</div>
 			</div>
 		</section>
-			<!-- Inicio código do slide dos 3 novos produtos, ainda não está funcional -->
+			<!-- Inicio código do slide dos novos produtos -->
 			<div class="container" >
 				<h2>Novos produtos</h2>
 					<div class="row">
@@ -117,4 +117,4 @@
 		  		endforeach; ?>
 			</div>
 		</div>
-		  <!-- Final código do slide dos 3 novos produtos -->
+		  <!-- Final código do slide dos novos produtos -->
