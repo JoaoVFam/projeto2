@@ -79,11 +79,9 @@
 				  		</a>
 				</div>
 			</div>
-			<div class="jumbotron"> <!-- class útil para abrigar conteúdo chave como slogans e frases de efeito-->
-				<div class="container">
-					<h2>Faça um orçamento conosco!</h2>
-					<p>Acesse a área de "Contato" para nos enviar uma mensagem.</p>
-					<p><a class="btn btn-primary btn-lg" href="#contato" role="button">Mande uma mensagem</a></p>
+			<div class="jumbotron" style="padding:25px 0px;"> <!-- class útil para abrigar conteúdo chave como slogans e frases de efeito-->
+				<div class="container" style="padding-top:12px;">
+					<p style="text-align: center"><a class="btn btn-primary btn-lg page-scroll" href="#contato" role="button">Faça um orçamento conosco</a></p>
 				</div>
 			</div>
 		</section>
