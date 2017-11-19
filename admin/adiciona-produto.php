@@ -24,7 +24,7 @@ if(!empty($_FILES['nome_imagem']['name']) && preg_match('/^image\/(pjpeg|jpeg|pn
 		die();
 	}
 }
-elseif (insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, 'default.jpg')) { //Se não foi enviada uma imagem para essa página tentamos inserir a imagem default.jpg ?>
+elseif (insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, 'default.png')) { //Se não foi enviada uma imagem para essa página tentamos inserir a imagem default.jpg ?>
 		<div class="alert alert-success" role="alert">
 			<p>Produto <?=$nome?>, <?=$preco?>, adicionado com sucesso!</p>
 		</div> <?php 

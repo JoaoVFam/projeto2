@@ -1,7 +1,7 @@
 <?php
 function listaProdutos($conexao) {
 	$produtos = array();
-	$resultado = mysqli_query($conexao, "select p.*,c.nome as categoria_nome from produtos as p join categorias as c on c.id=p.categoria_id");
+	$resultado = mysqli_query($conexao, "select p.*,c.nome as categoria_nome from produtos as p left join categorias as c on c.id=p.categoria_id");
 	while($produto = mysqli_fetch_assoc($resultado)) {
 		array_push($produtos, $produto);
 	}
@@ -41,3 +41,11 @@ function retornaUltimosProdutos($conexao) {
 	}
 	return $produtos;
 }
+function listaProdutosBusca($conexao,$busca) {
+	$produtos = array();
+	$resultado_busca = mysqli_query($conexao, "select p.*,c.nome as categoria_nome from produtos as p left join categorias as c on c.id=p.categoria_id where p.nome like '%$busca%'");
+	while($resultado = mysqli_fetch_assoc($resultado_busca)) {
+			array_push($produtos, $resultado);
+		}
+		return $produtos;
+	}
