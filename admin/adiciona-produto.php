@@ -14,14 +14,12 @@ if(!empty($_FILES['nome_imagem']['name']) && preg_match('/^image\/(pjpeg|jpeg|pn
 		<div class="alert alert-success" role="alert">
 			<p>Produto <?=$nome?>, <?=$preco?>, adicionado com sucesso!</p>
 		</div> <?php   
-		die();
 	} 
 	else { //Se não foi possível adicionar o produto exibe uma menssagem de erro
 		$msg = mysqli_error($conexao);?>
 		<div class="alert alert-danger" role="alert">
 			<p>Produto <?=$nome;?> não adicionado: <?=$msg?></p>
 		</div> <?php 	
-		die();
 	}
 }
 elseif (insereProduto($conexao, $nome, $preco, $descricao, $categoria_id, 'default.png')) { //Se não foi enviada uma imagem para essa página tentamos inserir a imagem default.jpg ?>
