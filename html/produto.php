@@ -1,4 +1,5 @@
-<?php include ("header.php");
+<?php $home = 0;
+include ("header.php");
 include("../admin/conecta.php");
 include ("../admin/banco-produto.php");?>
 <div class="container-fluid">

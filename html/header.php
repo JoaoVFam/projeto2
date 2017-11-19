@@ -27,11 +27,11 @@
 					</div>
 					<div class="collapse navbar-collapse" id="navbar">
 						<ul class="nav navbar-nav links-nav">
-							<li><a class="page-scroll" href="index.php#">Home</a></li>
-							<li><a class="page-scroll" href="index.php#quemsomos">Quem somos</a></li>
-							<li><a class="page-scroll" href="produto.php">Produtos</a></li>
-							<li><a class="page-scroll" href="index.php#contato">Contato</a></li>
-							<li><a class="page-scroll" href="index.php#localização">Localização</a></li>
+							<li><a class="page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#home>Home</a></li>
+							<li><a class="page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#quemsomos>Quem somos</a></li>
+							<li><a href="produto.php">Produtos</a></li>
+							<li><a class="page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#localização>Localização</a></li>
+							<li><a class="page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#contato>Contato</a></li>							
 		    				<li class="dropdown">
 		    					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span><span class="caret"></span></a>
 		    					<ul class="dropdown-menu">

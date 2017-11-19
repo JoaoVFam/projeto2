@@ -21,18 +21,6 @@
 	<script src="../assets/js/jquery.js"></script>
 	<script src="../assets/js/bootstrap.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<!-- SCRIPT PARA SCROLL AINDA NÃO FINALIZADO
-	<script>
-		$(function() {
-			$('a.page-scroll').bind('click', function(event) {
-				var $anchor = $(this);
-				$('html, body').stop().animate({
-					scrollTop: $($anchor.attr('href')).offset().top
-				}, 1500, 'easeInOutExpo');
-				event.preventDefault();
-			});
-		});
-	</script>
--->
+	<script src="../assets/js/scroll.js"></script>
 </body>
 </html>

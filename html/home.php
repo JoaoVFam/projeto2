@@ -1,3 +1,4 @@
+		<?php $home = 1;?>
 		<section id="home">
 			<div>
 				<div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">

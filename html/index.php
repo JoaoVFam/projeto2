@@ -1,3 +1,4 @@
+<?php $home = 1;?>
 <?php include("header.php");?>
 <?php include("home.php");?>
 <?php include("quem-somos.php");?>
