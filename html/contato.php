@@ -18,5 +18,5 @@
     				<textarea class="form-control" id="contato-mensagem" rows="9"></textarea>
   				</div>
 			</form>
-			<button class="btn btn-default" type="submit">Enviar</button>
+			<button class="btn btn-primary" type="submit">Enviar</button>
 		</section>

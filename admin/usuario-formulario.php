@@ -1,5 +1,5 @@
-<?php include("header.php");
-include("conecta.php");?>
+<?php require_once("header.php");
+require_once("conecta.php");?>
 <h1>Formulário de Usuário</h1>
 <form action="adiciona-usuario.php" method="post">
 	<table class="table">
@@ -9,7 +9,7 @@ include("conecta.php");?>
 		</tr>
 		<tr>
 			<td>Senha</td>
-			<td><input class="form-control" type="text" name="senha"><br/></td>	
+			<td><input class="form-control" type="password" name="senha"><br/></td>	
 		</tr>
 		<tr>
 			<td><input class="btn btn-primary" type="submit" value="Cadastrar"></td>

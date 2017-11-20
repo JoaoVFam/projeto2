@@ -1,6 +1,5 @@
-<?php include("header.php");
-include("conecta.php");
-include("banco-usuario.php");
+<?php require_once("header.php");
+require_once("banco-usuario.php");
 if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
 	<div class="alert alert-success" role="alert">
 		<p>Usuário removido com sucesso!</p>
@@ -13,7 +12,7 @@ if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
 		foreach($usuarios as $usuario) :?>	
 			<tr>
 				<td><?=$usuario['email']?></td>
-				<td><?=$usuario['senha']?></td>
+				<td type="password"><?=$usuario['senha']?></td>
 				<td><a class="btn btn-primary" href="usuario-altera-formulario.php?id=<?=$usuario['id']?>">Alterar</a></td>
 				<td>
 					<form action="remove-usuario.php" method="post">

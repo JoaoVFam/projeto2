@@ -1,6 +1,5 @@
-<?php include("header.php");
-include("conecta.php");
-include("banco-categoria.php");
+<?php require_once("header.php");
+require_once("banco-categoria.php");
 if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
  	<div class="alert alert-success" role="alert">
 		<p>Categoria removida com sucesso!</p>

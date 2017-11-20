@@ -1,6 +1,5 @@
-<?php include("header.php");
-include("conecta.php");
-include("banco-usuario.php");
+<?php require_once("header.php");
+require_once("banco-usuario.php");
 $id = $_GET["id"];
 $usuario = buscaUsuario($conexao, $id);?>
 <h1>Alterar Usuário</h1>

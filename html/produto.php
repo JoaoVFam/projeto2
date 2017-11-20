@@ -9,7 +9,7 @@ include ("../admin/banco-produto.php");?>
 		foreach ($produtos as $produto) :?>
 		<div class="col-sm-6 col-md-4 col-lg-3">
 			<div class="thumbnail">
-				<img src="../admin/anexo/<?=$produto['nome_imagem']?>" style="width:256px; height:256px" class="img-thumbnail" alt="imagem_produto">
+				<img src="../admin/img/<?=$produto['nome_imagem']?>" style="width:256px; height:256px" class="img-thumbnail" alt="imagem_produto">
 				<div class="caption">
 					<h3><?=$produto['nome']?></h3>
 					<p><?=substr($produto['descricao'], 0, 40)?></p>

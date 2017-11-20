@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: 15-Nov-2017 às 02:36
+-- Generation Time: 20-Nov-2017 às 22:19
 -- Versão do servidor: 5.7.20-log
 -- PHP Version: 5.6.31
 
@@ -75,14 +75,15 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `email` varchar(100) DEFAULT NULL,
   `senha` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `usuarios`
 --
 
 INSERT INTO `usuarios` (`id`, `email`, `senha`) VALUES
-(1, 'rezende.gabriel@engenharia.ufjf.br', 'A23d45g');
+(1, 'rezende.gabriel@engenharia.ufjf.br', '54c1e5f4ae873029f40c1702b0fe20ba'),
+(2, 'rezende.drummer@outlook.com', 'e10adc3949ba59abbe56e057f20f883e');
 
 --
 -- Constraints for dumped tables

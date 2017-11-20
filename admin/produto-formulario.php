@@ -1,6 +1,5 @@
-<?php include("header.php");
-include("conecta.php");
-include("banco-categoria.php");
+<?php require_once("header.php");
+require_once("banco-categoria.php");
 $categorias = listaCategorias($conexao);?>
 <h1>Formulário de Produto</h1>
 <form action="adiciona-produto.php" method="post" enctype="multipart/form-data">

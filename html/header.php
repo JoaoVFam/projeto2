@@ -31,25 +31,9 @@
 							<li><a class="page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#quemsomos>Quem somos</a></li>
 							<li><a href="produto.php">Produtos</a></li>
 							<li><a class="page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#localização>Localização</a></li>
-							<li><a class="page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#contato>Contato</a></li>							
-		    				<li class="dropdown">
-		    					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span><span class="caret"></span></a>
-		    					<ul class="dropdown-menu">
-		    						<form>
-		    							<div class="form-group">
-		    								<label for="login">Login:</label>
-		    								<input class="form-control" id="login" type="text" placeholder="Usuário">
-		    							</div>
-		    							<div class="form-group">
-		    								<label for="login">Senha:</label>
-		    								<input class="form-control" id="login" type="text" placeholder="Sua senha">
-		    							</div>
-		    						</form>
-		    						<button class="btn btn-default" type="submit">Entrar</button>
-		    					</ul>
-		    				</li>
+							<li><a class="page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#contato>Contato</a></li>
 		    			</ul>
-			    		<form name="searchform" method="post" action="produto-pesquisa.php" class="navbar-form navbar-right">
+			    		<form name="searchform" method="post" action="produto-pesquisa.php" class="navbar-form navbar-left">
 							<div class="form-group">
 								<div class="input-group">
 									<input type="text" name="busca" class="form-control" placeholder="Pesquisa">
@@ -61,7 +45,11 @@
 								</div>
 							</div>
 						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a class="glyphicon glyphicon-lock" href="../admin/index.php" title="Acesso Restrito"></a></li>
+						</ul>
 		    		</div>
 				</div>
 			</nav>	
 		</header>
+		

@@ -1,6 +1,5 @@
-<?php include("header.php");
-include("conecta.php");
-include("banco-produto.php");
+<?php require_once("header.php");
+require_once("banco-produto.php");
 if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
  	<div class="alert alert-success" role="alert">
 		<p>Produto removido com sucesso!</p>

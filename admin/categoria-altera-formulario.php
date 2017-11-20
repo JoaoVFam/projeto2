@@ -1,6 +1,5 @@
-<?php include("header.php");
-include("conecta.php");
-include("banco-categoria.php");
+<?php require_once("header.php");
+require_once("banco-categoria.php");
 $id = $_GET['id'];
 $categoria = buscaCategoria($conexao, $id);?>
 <h1>Alterar Categoria</h1>

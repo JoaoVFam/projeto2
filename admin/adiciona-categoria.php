@@ -1,6 +1,5 @@
-<?php include("header.php");
-include("conecta.php");
-include("banco-categoria.php");
+<?php require_once("header.php");
+require_once("banco-categoria.php");
 $nome = $_POST['nome'];
 if(insereCategoria($conexao, $nome)) {?>
 	<div class="alert alert-success" role="alert">
