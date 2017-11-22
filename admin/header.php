@@ -4,6 +4,7 @@ require_once("mostra-alerta.php");?>
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>JF Alarmes - Área Administrativa</title>
 		<link href="../assets/css/bootstrap.css" rel="stylesheet">
 		<link href="../assets/css/estilo-banco-usuario.css" rel="stylesheet">
@@ -22,7 +23,7 @@ require_once("mostra-alerta.php");?>
 				</div>
 				<?php if(usuarioEstaLogado()) {?>
 					<div class="collapse navbar-collapse" id="navbar">
-						<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav links-nav">
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Adicionar <span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -39,6 +40,9 @@ require_once("mostra-alerta.php");?>
 									<li><a href="usuario-lista.php">Usuários</a></li>
 								</ul>
 							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Você está logado como <?=usuarioLogado()?></a></li>
 							<li><a href="logout.php">Sair</a></li>
 						</ul>
 					</div>

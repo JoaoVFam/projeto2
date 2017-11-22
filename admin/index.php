@@ -2,7 +2,6 @@
 require_once("logica-usuario.php");?>
 <?php if(usuarioEstaLogado()) {?>
 	<h1>Bem vindo!</h1>
-	<p class="alert-success">Você está logado como <?=usuarioLogado()?>.</p>
 <?php } else {?>
 	<h1>Acesso Restrito</h1>
 	<h2>Login</h2>
