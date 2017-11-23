@@ -1,5 +1,5 @@
 		<?php $home = 1;?>
-		<section id="home">
+		<section>
 			<div>
 				<div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
 					<ol class="carousel-indicators">

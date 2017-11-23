@@ -9,5 +9,4 @@ $(document).ready(function(){
 	$('.navbar-collapse ul li a.page-scroll').click(function() {
 		$('.navbar-toggle:visible').click();
 	});
-
 });
