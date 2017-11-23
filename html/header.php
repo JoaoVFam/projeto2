@@ -10,11 +10,11 @@
 		<link rel="stylesheet" type="text/css" href="../assets/css/estilo-localizacao.css">
 		<link rel="stylesheet" type="text/css" href="../assets/css/estilo-footer.css">
 		<title>JF Alarmes</title>
-		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
+		<link rel="shortcut icon" type="image/png" href="../assets/img/logo02.png">
 	</head>
 	<body style="padding-top: 50px" id="home">
 		<header>
-			<nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #36454f">
+			<nav class="navbar navbar-fixed-top navbar-inverse">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true">
@@ -23,7 +23,7 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					    </button>
-						<a class="navbar-brand page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#home>JF Alarmes</a>
+						<a class="navbar-brand page-scroll" style="padding: 7.5px 15px" href=<?php if($home!=1){ echo "index.php";}?>#home><img alt="Brand" src="../assets/img/logo01.png"></a>
 					</div>
 					<div class="collapse navbar-collapse" id="navbar">
 						<ul class="nav navbar-nav links-nav">

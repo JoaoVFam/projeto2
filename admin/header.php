@@ -8,10 +8,10 @@ require_once("mostra-alerta.php");?>
 		<title>JF Alarmes - Área Administrativa</title>
 		<link href="../assets/css/bootstrap.css" rel="stylesheet">
 		<link href="../assets/css/estilo-banco-usuario.css" rel="stylesheet">
-		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
+		<link rel="shortcut icon" type="image/png" href="../assets/img/logo02.png">
 	</head>
 	<body>
-		<nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #36454f">
+		<nav class="navbar navbar-fixed-top navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
@@ -20,7 +20,7 @@ require_once("mostra-alerta.php");?>
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
       				</button>
-					<a class="navbar-brand" href="../html/index.php" title="Voltar para a página principal">JF Alarmes</a>
+					<a class="navbar-brand" href="../html/index.php" style="padding: 7.5px 15px" title="Voltar para a página principal"><img alt="Brand" src="../assets/img/logo01.png"></a>
 				</div>
 				<?php if(usuarioEstaLogado()) {?>
 					<div class="collapse navbar-collapse" id="navbar">
