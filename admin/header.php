@@ -8,6 +8,7 @@ require_once("mostra-alerta.php");?>
 		<title>JF Alarmes - Área Administrativa</title>
 		<link href="../assets/css/bootstrap.css" rel="stylesheet">
 		<link href="../assets/css/estilo-banco-usuario.css" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="../assets/img/favicon.png">
 	</head>
 	<body>
 		<nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #36454f">

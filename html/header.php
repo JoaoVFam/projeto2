@@ -17,7 +17,7 @@
 			<nav class="navbar navbar-fixed-top navbar-inverse" style="background-color: #36454f">
 				<div class="container-fluid">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true">
 					        <span class="sr-only">Toggle navigation</span>
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
