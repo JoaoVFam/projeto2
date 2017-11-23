@@ -23,7 +23,7 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					    </button>
-						<a class="navbar-brand" href=<?php if($home!=1){ echo "index.php";}?>#>JF Alarmes</a>
+						<a class="navbar-brand page-scroll" href=<?php if($home!=1){ echo "index.php";}?>#home>JF Alarmes</a>
 					</div>
 					<div class="collapse navbar-collapse" id="navbar">
 						<ul class="nav navbar-nav links-nav">

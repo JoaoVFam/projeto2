@@ -13,12 +13,6 @@ if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
 			foreach ($produtos as $produto) :?>
 			<tr>
 				<td><?=$produto['nome']?></td>
-				<td>
-					<form action="produto-detalhes.php" method="post">
-						<input type="hidden" name="id" value="<?=$produto['id']?>">
-						<button class="btn btn-primary" style="vertical-align: center">Detalhes</button>
-					</form>
-				</td>
 				<td><?=$produto['preco']?></td>
 				<td><?=substr($produto['descricao'], 0, 40)?></td>
 				<?php if($produto['categoria_id']!=NULL) {?>
@@ -26,11 +20,17 @@ if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
 				<?php } elseif ($produto['categoria_id']==NULL) {?>
 				<td>Produto sem categoria</td>
 				<?php }?>
-				<td><a class="btn btn-primary" href="produto-altera-formulario.php?id=<?=$produto['id']?>">Alterar</a></td>
-				<td>
+				<td class="col-lg-1">
+					<form action="produto-detalhes.php" method="post">
+						<input type="hidden" name="id" value="<?=$produto['id']?>">
+						<button class="btn btn-primary" style="transform: translateY(25%);width:100%;">Detalhes</button>
+					</form>
+				</td>
+				<td><a class="col-lg-1 btn btn-primary" style="transform: translateY(25%);width: 100%;" href="produto-altera-formulario.php?id=<?=$produto['id']?>">Alterar</a></td>
+				<td class="col-lg-1">
 					<form action="remove-produto.php" method="post">
 						<input type="hidden" name="id" value="<?=$produto['id']?>">
-						<button class="btn btn-danger" style="vertical-align: center">Remover</button>
+						<button class="btn btn-danger" style="transform: translateY(25%);width:100%;">Remover</button>
 					</form>
 				</td>
 			</tr>

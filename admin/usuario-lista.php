@@ -14,11 +14,11 @@ if(array_key_exists("removido", $_GET) && $_GET["removido"]==true) {?>
 					<tr>
 						<td><?=$usuario['email']?></td>
 						<td type="password"><?=$usuario['senha']?></td>
-						<td><a class="btn btn-primary" href="usuario-altera-formulario.php?id=<?=$usuario['id']?>">Alterar</a></td>
-						<td>
+						<td class="col-lg-2"><a style="transform: translateY(25%);width:100%" class="btn btn-primary" href="usuario-altera-formulario.php?id=<?=$usuario['id']?>">Alterar</a></td>
+						<td class="col-lg-2">
 							<form action="remove-usuario.php" method="post">
 								<input type="hidden" name="id" value="<?=$usuario['id']?>">
-								<button class="btn btn-danger">Remover</button>
+								<button class="btn btn-danger" style="transform: translateY(25%);width:100%">Remover</button>
 							</form>
 						</td>
 					</tr>
