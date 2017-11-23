@@ -1,6 +1,6 @@
 		<section id="localização" style="padding-top: 50px">
 			<div class="container">
-				<h1>Localização</h1>
+				<h2 style="text-align: center; font-family: sans-serif;">Localização</h2>
 				<div class="row">
 					<div class="col-md-6">
 						<div class="jumbotron">

@@ -1,5 +1,5 @@
 		<section id="contato" class="container" style="padding-top: 50px">
-			<h2>Contato</h2>
+			<h2 style="text-align: center; font-family: sans-serif;">Contato</h2>
 			<p>Entre em contato conosco.</p>
 			<form>
 				<div class="form-group">

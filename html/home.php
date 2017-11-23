@@ -10,7 +10,7 @@
 					<div class="carousel-inner">
 						<div class="item active">
 							<img src="../assets/img/slide11.jpg" alt="slide1" style="width:100%" class="img-responsive" />
-							<div class="carousel-caption">
+							<div class="carousel-caption" class="background-label"/>
 								<h4>Alarmes residenciais e comerciais</h4>
 								<p>Nossos sistemas de alarmes permitem que seu patrimônio fique protegido no momento de ociosidade do imóvel.</p>
 							</div>
@@ -87,7 +87,7 @@
 		</section>
 			<!-- Inicio código do slide dos novos produtos -->
 			<div class="container" >
-				<h2>Novos produtos</h2>
+				<h2 style="text-align: center; font-family: sans-serif;">Novos produtos</h2>
 					<div class="row">
 			<?php 
 				include("../admin/conecta.php"); 

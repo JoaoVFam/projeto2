@@ -1,6 +1,6 @@
 		<section id="quemsomos" style="padding-top: 50px">	
 			<div class="container">
-				<h2 id="titulo"> Quem somos?</h2>
+				<h2 style="text-align: center; font-family: sans-serif;"> Quem somos?</h2>
 				<img id="foto-fachada" class="img-responsive" src="../assets/img/fachada.jpg" alt="Foto da fachada das instalações da empresa">
 				<div class="painel-group" id="paineis-sobre">
 					<div class="panel panel-default"> 					
