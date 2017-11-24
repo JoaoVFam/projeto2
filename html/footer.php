@@ -9,7 +9,7 @@
 		--><div style="text-align: center;padding-top: 25px;" class="footer-redes">
 			<div class="img-redes">
 				<a href="https://www.facebook.com/jfalarmes" target="_blank" title="Nos curta no Facebook!"> 
-					<img src="../assets/img/facebook-black.png" class="facebook-logo" style="background-color: #36454f"> 
+					<img src="../assets/img/facebook-black.png" class="facebook-logo" style="background-color: #101010"> 
 				</a>
 				<a href="" target="_blank"
 				title="Em construção!">	<img src="../assets/img/if_2_Media_social_website_instagram_2657553.png" style="padding: 0px 8px;"></a>
