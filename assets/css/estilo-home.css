@@ -10,15 +10,13 @@ html>body>div.jumbotron{
 .invisible {
   visibility: hidden;
 }
-
-
-/* @media (max-width: 768px){
-	 .slide-cel{
-	 	display: inline; 
-	 }
+h2 {
+	font-family: 'Work Sans', sans-serif !important;
+	margin-bottom: 20px !important;
+	letter-spacing: -1px;
 }
 @media (min-width: 768px){
-	.slide-cel{
-		display: none;
+	h2{
+		font-size: 36px !important;
 	}
 }

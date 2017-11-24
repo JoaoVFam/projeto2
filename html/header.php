@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="../assets/css/estilo-footer.css">
 		<title>JF Alarmes</title>
 		<link rel="shortcut icon" type="image/png" href="../assets/img/logo02.png">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
 	</head>
 	<body style="padding-top: 50px" id="home">
 		<header>
