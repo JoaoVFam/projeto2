@@ -6,23 +6,25 @@ if($produto['categoria_id']!=NULL) {
 	$categoria = buscaCategoriaProduto($conexao, $produto['categoria_id']);
 }?>
 <div class="panel panel-default">
- 	<div class="panel-heading"><h4>Informações do Produto</h4></div>
-	<table class="table">
-		<tr>
-			<td><img src="img/<?=$produto['nome_imagem']?>" style="width:256px; height:256px" class="img-thumbnail"></td>
-			<td>Descrição: <?=$produto['descricao']?> </td>
-		</tr>
-		<tr>
-			<td>Nome: <?=$produto['nome']?></td>
-			<td>ID: <?=$produto['id']?></td>
-		</tr>
+	<div class="panel-heading"><h4>Informações do Produto</h4></div>
+	<div class="table-responsive">
+		<table class="table">
+			<tr>
+				<td><img src="img/<?=$produto['nome_imagem']?>" style="width:256px; height:256px" class="img-thumbnail"></td>
+				<td>Descrição: <?=$produto['descricao']?> </td>
+			</tr>
+			<tr>
+				<td>Nome: <?=$produto['nome']?></td>
+				<td>ID: <?=$produto['id']?></td>
+			</tr>
 			<td>Preço: <?=$produto['preco']?></td>
 			<?php if($produto['categoria_id']!=NULL) {?>
-				<td>Categoria: <?=$categoria['nome']?></td>
+			<td>Categoria: <?=$categoria['nome']?></td>
 			<?php } elseif ($produto['categoria_id']==NULL) {?>
-				<td>Categoria: Produto sem categoria</td>
+			<td>Categoria: Produto sem categoria</td>
 			<?php }?>
 		</tr>
 	</table>
+	</div>
 </div>
 <?php include("footer.php");?>

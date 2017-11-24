@@ -9,6 +9,7 @@ require_once("mostra-alerta.php");?>
 		<link href="../assets/css/bootstrap.css" rel="stylesheet">
 		<link href="../assets/css/estilo-banco-usuario.css" rel="stylesheet">
 		<link rel="shortcut icon" type="image/png" href="../assets/img/logo02.png">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:700" rel="stylesheet">
 	</head>
 	<body>
 		<nav class="navbar navbar-fixed-top navbar-inverse">
