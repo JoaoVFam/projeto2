@@ -21,7 +21,12 @@ require_once("mostra-alerta.php");?>
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
       				</button>
-					<a class="navbar-brand" href="../html/index.php" style="padding: 7.5px 15px" title="Voltar para a página principal"><img alt="Brand" src="../assets/img/logo01.png"></a>
+					<a class="navbar-brand" href="../html/index.php" style="padding: 7.5px 15px" title="Voltar para a página principal">
+						<img alt="Brand" src="../assets/img/logo01.png"
+							onmouseover="this.src='../assets/img/logo-gif.gif'"
+							onmouseout="this.src='../assets/img/logo01.png'" 
+						>
+					</a>
 				</div>
 				<?php if(usuarioEstaLogado()) {?>
 					<div class="collapse navbar-collapse" id="navbar">

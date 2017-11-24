@@ -24,7 +24,12 @@
 					        <span class="icon-bar"></span>
 					        <span class="icon-bar"></span>
 					    </button>
-						<a class="navbar-brand page-scroll" style="padding: 7.5px 15px" href=<?php if($home!=1){ echo "index.php";}?>#home><img alt="Brand" src="../assets/img/logo01.png"></a>
+						<a class="navbar-brand page-scroll" style="padding: 7.5px 15px" href=<?php if($home!=1){ echo "index.php";}?>#home>
+							<img alt="Brand" src="../assets/img/logo01.png"
+								onmouseover="this.src='../assets/img/logo-gif.gif'"
+								onmouseout="this.src='../assets/img/logo01.png'" 
+							>
+						</a>
 					</div>
 					<div class="collapse navbar-collapse" id="navbar">
 						<ul class="nav navbar-nav links-nav">
